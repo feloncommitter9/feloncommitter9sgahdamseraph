@@ -1,6 +1,6 @@
 <img src="images/seraphbanner.jpg">
   <p align="center">
-    seraph; an open source game website that hosts 350+ games with customisable settings, full rehosting support and a beautiful design
+    fekoncommitter9 is the goat; fuck phoenixhub for banning me
     <br/>
     <a href="https://seraph.reveriestudios.online/">view demo</a>
     ·
@@ -14,7 +14,7 @@
     <img src="https://img.shields.io/github/forks/a456pur/seraph?style=for-the-badge&labelColor=000000&color=1c1c1c">
   </p>
 
-## features
+## gah dam features
 - **350+ games:** no embedding, no workarounds - games ranging from unity to flash to emulators and more!
 - **10+ apps:** a dedicated area hosting apps, ranging from useful utilities to fun web engine showcases
 - **offline mode:** download over 110+ games from the games page and run the site in a minimised state; all without an internet connection
@@ -23,7 +23,7 @@
 - **mobile:** an exclusive page dedicated to mobile users, featuring mobile games and the same functional experience as normal seraph
 - **and more!** a hosting page with details on how to clone seraph, a full update log, open blank + more
 
-## credits
+## mu fukin credits
 **resources used**
 - ruffle: allows flash games to be run on the website without any prior installation necessary
 - emulatorjs: enables our collection of game boy color, game boy advance, nintendo ds, snes, nes and sega mega drive to run on the website 
