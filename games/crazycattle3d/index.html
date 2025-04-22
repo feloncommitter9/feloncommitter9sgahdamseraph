@@ -1,46 +1,70 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
 <head>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7FN7LEVWXD"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-7FN7LEVWXD');
-    </script>
-    
-    <title>Crazy Cattle 3D | Seraph</title>
-    <script src="../../storage/js/cloak.js"></script>
-    <link rel="shortcut icon" href="../../images/ico.ico" type="image/x-icon">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chat | Seraph</title>
 
-    <meta charset="utf-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf8">
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="../images/ico.ico" type="image/x-icon">
 
-    <link rel="stylesheet" href="TemplateData/style.css">
-    <script src="TemplateData/UnityProgress.js"></script>
-    <script src="Build/UnityLoader.js"></script>
-    <script>
-      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/CrazyTunnel3D-g-1.json", {
-        onProgress: UnityProgress,
-        Module: {
-          onRuntimeInitialized: function() {
-            UnityProgress(gameInstance, "complete");
-          }
-        }
-      });
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-7FN7LEVWXD"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){ dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-7FN7LEVWXD');
+  </script>
 
-      // REDIRECT ONLY WHEN CLICKING GAME AREA
-      window.addEventListener("load", function() {
-        var gameContainer = document.getElementById("gameContainer");
-        gameContainer.addEventListener("click", function() {
-          window.open("https://feloncomittingcattle.vercel.app", "_blank"); // Replace with your actual link
-        });
-      });
-    </script>
+  <!-- Styles and Scripts -->
+  <link rel="stylesheet" href="styles.css" />
+  <script src="../storage/js/cloak.js"></script>
+  <script src="script.js" defer></script>
+
+  <!-- Inline Button Styles -->
+  <style>
+    .minnit-button {
+      display: inline-block;
+      margin-top: 40px;
+      padding: 40px 80px;
+      font-size: 64px;
+      color: #ffffff;
+      background-color: #007BFF;
+      text-decoration: none;
+      border-radius: 20px;
+      border: none;
+      cursor: pointer;
+    }
+    .minnit-button:hover {
+      background-color: #0056b3;
+    }
+  </style>
 </head>
-<body style="overflow:hidden;">
-    <div class="webgl-content">
-        <div id="gameContainer" style="width: 900px; height: 600px; margin: auto"></div>
+
+<body>
+  <main class="main">
+    <!-- Calculator Section -->
+    <div class="calculator">
+      <div class="screen">
+        <div class="screen-last" id="lastOperationScreen"></div>
+        <div class="screen-current" id="currentOperationScreen">0</div>
+      </div>
+      <div class="buttons-grid">
+        <!-- Buttons go here -->
+      </div>
     </div>
+
+    <!-- Minnit Button Section -->
+    <div class="chat-button-container" style="text-align:center;">
+      <a href="https://feloncomittingcattle.vercel.app" target="_blank" class="minnit-button">Play free</a>
+    </div>
+  </main>
+
+  <footer class="footer" style="text-align: center; margin-top: 50px;">
+    <a href="https://github.com/michalosman" target="_blank" style="text-decoration: none; color: white;">
+      originally created by @michalosman on GitHub
+    </a>
+  </footer>
 </body>
 </html>
